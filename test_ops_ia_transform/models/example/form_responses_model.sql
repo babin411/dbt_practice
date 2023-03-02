@@ -13,7 +13,6 @@ select
     jsonb_extract_path_text(_airbyte_data, 'Sub_Department') as sub_department,
     jsonb_extract_path_text(_airbyte_data, 'Main_Department') as main_department,
     jsonb_extract_path_text(_airbyte_data, 'Drop_Off_Required') as drop_off_required
-    _airbyte_emitted_at
 from "raw".raw_data._airbyte_raw_test_form_reponses
 -- covid_epidemiology
 )
