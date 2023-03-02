@@ -26,4 +26,4 @@ select
     sub_department,
     main_department,
     drop_off_required
-from raw_form_respones 
+from raw_form_responses 
