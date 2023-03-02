@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: airbyte
+    database: raw
+    schema: transformed_raw
+    tables:
+      - name: _airbyte_raw_test_form_responses
