@@ -23,7 +23,7 @@ select
     "Timestamp",
     UPPER(employee_name),
     food_coupon_id,
-    sub_department,
+    UPPER(sub_department),
     main_department,
     drop_off_required
 from raw_form_respones 
